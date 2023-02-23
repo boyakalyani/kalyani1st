@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FA0753</color>
+    <color name="purple_500">#F5D609</color>
+    <color name="purple_300">#4A148C</color>
+    <color name="purple_700">#17F897</color>
+    <color name="teal_200">#FD05A8</color>
+    <color name="teal_700">#32F107</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="start_color_kalyani">#F5F5EDED</color>
+    <color name="end_color_kalyani">#000000</color>
+    <color name="mid_color_kalyani">#60D3BEBE</color>
+    <color name="start_kalyani_button">#FFFFFF</color>
+    <color name="mid_kalyani_button">#FB0808</color>
+    <color name="END_kalyani_button">#0FDDDD</color>
+</resources>

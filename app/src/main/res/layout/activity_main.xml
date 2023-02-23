@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layouts"
+    android:background="@drawable/gradientkalyani"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bulboff"
+        android:layout_above="@+id/img2"
+        android:layout_centerInParent="true"
+        />
+
+    <ImageView
+        android:id="@id/img2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tglbtm1"
+        android:layout_centerInParent="true"
+        android:src="@drawable/bulbon" />
+
+    <ToggleButton
+        android:id="@+id/tglbtm1"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:padding="10dp"
+        android:textAllCaps="true"
+        android:textOff="bulon"
+        android:textOn="buoff" />
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="470dp"
+        android:text="type your name"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textAllCaps="false"
+        android:background="@drawable/btn1_1"/>
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="535dp"
+        android:text="type your age"
+        android:textStyle="italic"
+        android:textColor="#004D40"
+        android:background="@drawable/btn2_2"/>
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="type your gende"
+        android:textStyle="bold"
+        android:layout_marginTop="600dp"
+        android:textColor="#CF0827"
+        android:background="@drawable/btn3_3"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+       android:layout_marginTop="500dp"
+        android:layout_marginLeft="250dp"
+        android:text="you can vote"
+        android:textColor="@color/material_dynamic_tertiary10"
+        android:background="@drawable/btn_4"
+        />
+</RelativeLayout>
